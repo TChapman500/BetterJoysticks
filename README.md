@@ -16,3 +16,6 @@ The "Completion Goals" are what this plugin is required to be able to do in orde
 Some "nice to have" features that I would like this plugin to have are:
  - The ability to define custom HAT switches that the device has that does not show up as a HAT (eg: the additional HATs of the Logitech X52 or X56 controllers).
  - The ability for vessel plugins to define and implement their own, vessel-specific controls.
+
+# Notes
+The `AxisProcessor`, `ButtonProcessor`, and `HATProcessor` are going to eventually be extracted into their own library or possibly integrated into the [Input System](https://github.com/TChapman500/InputSystem) library.  Please do not touch those files.
