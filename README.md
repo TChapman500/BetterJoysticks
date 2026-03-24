@@ -1,5 +1,5 @@
 # Better Joysticks Plugin for Orbiter
-The goal of this plugin is to enable controls to be assigned to Joystick buttons, axes, and HAT switches far beyond what Orbiter's default Joystick handling system can manage.  This project requires the [Input System](https://github.com/TChapman500/InputSystem) library, along with the INI reader component from the [C++ Libraries](https://github.com/TChapman500/CPP-Libraries) repository.  Don't forget to modify the additional include directories and additional library directories (or just drop everything into `Orbitersdk/includes`.
+The goal of this plugin is to enable controls to be assigned to Joystick buttons, axes, and HAT switches far beyond what Orbiter's default Joystick handling system can manage.  This project requires the Input System and INI reader components from the [C++ Libraries](https://github.com/TChapman500/CPP-Libraries) repository.  Don't forget to modify the additional include directories and additional library directories (or just drop everything into `Orbitersdk/includes`.
 
 Currently, the solution is set up for Orbiter 2016 but can probably be adapted to other editions of Orbiter.
 
@@ -16,6 +16,3 @@ The "Completion Goals" are what this plugin is required to be able to do in orde
 Some "nice to have" features that I would like this plugin to have are:
  - The ability to define custom HAT switches that the device has that does not show up as a HAT (eg: the additional HATs of the Logitech X52 or X56 controllers).
  - The ability for vessel plugins to define and implement their own, vessel-specific controls.
-
-# Notes
-The `AxisProcessor`, `ButtonProcessor`, and `HATProcessor` are going to eventually be extracted into their own library or possibly integrated into the [Input System](https://github.com/TChapman500/InputSystem) library.  Please do not touch those files.
